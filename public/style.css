@@ -1,0 +1,39 @@
+*{
+
+
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+body{
+    align-items: center;
+    background: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+main{ 
+
+    background-color: #2f2f2f;
+    color: aliceblue;
+    letter-spacing: 1px;
+    max-width: 400px;
+    padding: 32px;
+}
+
+a{ 
+
+    color: blueviolet;
+    margin: 0 16px;
+    text-decoration: none;
+
+}
+
+div:not(:last-child) {
+    margin-bottom: 16px;
+}
